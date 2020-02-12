@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.buttonAdd {
+	background-repeat: no-repeat;
+	background-image: url('/images/add.png');
+}
+
+.circles-before{
+	min-height: 100px;
+	//background-image: linear-gradient(to right,#33C4FF, #336BFF);
+}
+
+.circles{
+	min-height: 100px;
+	background-image: url('/images/circles.png');
+}
+
+.main-circle{
+	min-height: 150px;
+	background-image: url('/images/circles.png');
+}
+
+.add{
+	background:none;
+	border:none;
+}
